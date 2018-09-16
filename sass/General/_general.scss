@@ -2,17 +2,17 @@
       General
 *****************/
 #container{
-    width: 960px;
-    margin: 0 auto;
+    width: $containerWidth;
+    margin: $defaultMargins;
   }
   
   body{
-    margin: 0;
-    border-top: 17px solid #090909;
-    font-family: Arial, Helvetica, sans-serif;
+    margin: $defaultMargins;
+    border-top: $primaryBorder;
+    font-family: $fontFam;
   }
   
   a{
-    text-decoration: none;
+    text-decoration: $textDecNone;
   }
   

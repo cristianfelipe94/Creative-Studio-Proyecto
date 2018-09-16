@@ -2,16 +2,16 @@
       Footer
 *****************/
 #footer {
-    background-color: #e2e2e2;
+    background-color: $footerBackgroundColor;
     position: absolute;
     width: 100%;
   }
   
   #footer-menu{
+    width: $containerWidth;
+    margin: $defaultMargins;
     list-style: none;
     padding: 10px;
-    width: 960px;
-    margin: 0 auto;
   }
   
   #footer-menu li{
@@ -19,21 +19,20 @@
   }
   
   #footer-menu a{
-    color: #090909;
-    font-size: 12px;
+    color: $primaryColor;
+    font-size: $secondaryFontSize;
   }
   
   #footer p{
-    color: #090909;
-    font-size: 12px;
-    margin: 0px;
-    width: 960px;
-    margin: 0 auto;
+    color: $primaryColor;
+    font-size: $secondaryFontSize;
+    width: $containerWidth;
+    margin: $defaultMargins;
   }
   
   #footer-menu li + li{
     margin-right: 5px;
-    border-left: 1px solid #090909;
+    border-left: $divsFooterMenu;
     padding-left: 5px;
   }
   
@@ -48,8 +47,8 @@
   
   .img-container {
     position: relative;
-    width: 960px;
-    margin: 0 auto;
+    width: $containerWidth;
+    margin: $defaultMargins;
     left: 850px;
     bottom: 30px;
   }

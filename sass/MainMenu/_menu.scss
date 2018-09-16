@@ -11,16 +11,13 @@
   }
   
   .correo{
-    color: #999898;
-    font-size: 13px;
-    position: absolute;
+    @extend %mailSharedOptions;
     top: 18px;
     right: 0;
   }
   
   .menu{
-    float: right;
-    list-style: none;
+    @extend %menuTabs;
     margin: 46px 0 0;
     padding: 0;
   }
@@ -34,13 +31,14 @@
   }
   
   .menu a{
-    color: #fe9b00;
-    font-size: 12px;
+    color: $secondaryColor;
+    font-size: $secondaryFontSize;
     font-weight: bold;
-    text-transform: uppercase;
+    @extend %textDisplay;
   }
+
   .menu a:hover,
   .link-active{
-    color: black !important;
+    color: $primaryColor !important;
   }
   
