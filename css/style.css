@@ -1,4 +1,25 @@
 @charset "UTF-8";
+#info-box h3, .box h2, .hyperlink, #portfolio h2, .menu a {
+  text-transform: uppercase; }
+
+.correo {
+  color: #999898;
+  font-size: 13px;
+  position: absolute; }
+
+.menu {
+  float: right;
+  list-style: none; }
+
+.box h2, #portfolio h2 {
+  font-size: 18px;
+  font-weight: bold; }
+
+.bb-line {
+  border-bottom: 1px solid #c0c0c0;
+  margin-bottom: 20px;
+  padding-bottom: 20px; }
+
 /****************
       Info
 *****************/
@@ -14,7 +35,6 @@
   padding-bottom: 30px; }
 
 #info-box h3 {
-  text-transform: uppercase;
   font-size: 12px;
   font-weight: bold; }
 
@@ -42,10 +62,7 @@
 
 .box h2 {
   border-bottom: 8px solid black;
-  padding-bottom: 10px;
-  text-transform: uppercase;
-  font-size: 18px;
-  font-weight: bold; }
+  padding-bottom: 10px; }
 
 .box p {
   font-size: 12px;
@@ -67,14 +84,13 @@
   margin-left: 52px; }
 
 .box ul {
-  list-style-image: url("../img/Diseño/checkicon.jpg"); }
+  list-style-image: url("../img/Dise├▒o/checkicon.jpg"); }
 
 .box:first-child {
   margin-left: 0; }
 
 .hyperlink {
-  color: #fe9b00;
-  text-transform: uppercase; }
+  color: #fe9b00; }
 
 .reference {
   color: #090909;
@@ -89,10 +105,10 @@
   width: 100%; }
 
 #footer-menu {
-  list-style: none;
-  padding: 10px;
   width: 960px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  list-style: none;
+  padding: 10px; }
 
 #footer-menu li {
   display: inline; }
@@ -104,7 +120,6 @@
 #footer p {
   color: #090909;
   font-size: 12px;
-  margin: 0px;
   width: 960px;
   margin: 0 auto; }
 
@@ -140,11 +155,6 @@
   height: 10px;
   padding-bottom: 3px; }
 
-#portfolio h2 {
-  text-transform: uppercase;
-  font-size: 18px;
-  font-weight: bold; }
-
 #portfolio img + img {
   margin-left: 28px; }
 
@@ -156,7 +166,7 @@
   margin: 0 auto; }
 
 body {
-  margin: 0;
+  margin: 0 auto;
   border-top: 17px solid #090909;
   font-family: Arial, Helvetica, sans-serif; }
 
@@ -171,11 +181,6 @@ a {
   content: "";
   clear: both; }
 
-.bb-line {
-  border-bottom: 1px solid #c0c0c0;
-  margin-bottom: 20px;
-  padding-bottom: 20px; }
-
 /****************
       Footer
 *****************/
@@ -185,10 +190,10 @@ a {
   width: 100%; }
 
 #footer-menu {
-  list-style: none;
-  padding: 10px;
   width: 960px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  list-style: none;
+  padding: 10px; }
 
 #footer-menu li {
   display: inline; }
@@ -200,7 +205,6 @@ a {
 #footer p {
   color: #090909;
   font-size: 12px;
-  margin: 0px;
   width: 960px;
   margin: 0 auto; }
 
@@ -234,15 +238,10 @@ a {
   float: left; }
 
 .correo {
-  color: #999898;
-  font-size: 13px;
-  position: absolute;
   top: 18px;
   right: 0; }
 
 .menu {
-  float: right;
-  list-style: none;
   margin: 46px 0 0;
   padding: 0; }
 
@@ -255,12 +254,11 @@ a {
 .menu a {
   color: #fe9b00;
   font-size: 12px;
-  font-weight: bold;
-  text-transform: uppercase; }
+  font-weight: bold; }
 
 .menu a:hover,
 .link-active {
-  color: black !important; }
+  color: #090909 !important; }
 
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
