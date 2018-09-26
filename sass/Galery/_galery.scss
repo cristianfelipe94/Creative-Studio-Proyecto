@@ -2,20 +2,21 @@
       Portfolio
 *****************/
 #portfolio {
-    border-bottom: $divsBorder;
+    border-bottom: 1px solid #c0c0c0;
     margin-bottom: 20px;
     padding-bottom: 30px;
   }
   
   #portfolio h2 img {
     margin-right: 20px;
-    height: $imgHeight;
+    height: 10px;
     padding-bottom: 3px;
   }
   
   #portfolio h2 {
-    @extend %textDisplay;
-    @extend %fontTitles;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
   }
   
   #portfolio img + img {

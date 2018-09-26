@@ -2,17 +2,15 @@
       General
 *****************/
 #container{
-    width: $containerWidth;
-    margin: $defaultMargins;
+    width: 960px;
+    margin: 0 auto;
   }
-  
-  body{
-    margin: $defaultMargins;
-    border-top: $primaryBorder;
-    font-family: $fontFam;
-  }
-  
-  a{
-    text-decoration: $textDecNone;
-  }
-  
+
+body{
+  margin: 0;
+  font-family: $mainFonts;
+}
+
+a{
+  text-decoration: none;
+}

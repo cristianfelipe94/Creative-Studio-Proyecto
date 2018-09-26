@@ -16,13 +16,13 @@
   }
   
   #info-box h3 {
-    @extend %textDisplay;
-    font-size: $secondaryFontSize;
+    text-transform: uppercase;
+    font-size: 12px;
     font-weight: bold;
   }
   
   #info-box p {
-    font-size: $secondaryFontSize;
+    font-size: 12px;
     line-height: 20px;
   }
   
@@ -31,9 +31,9 @@
   }
   
   .blog-box1 {
-    width: $primaryBlogWidth;
+    width: 680px;
     margin-right: 50px
   }
   .blog-box2 {
-    width: $secondaryBlogWidth;
+    width: 230px;
   }
