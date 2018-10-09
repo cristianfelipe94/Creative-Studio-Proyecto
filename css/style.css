@@ -1,278 +1,4 @@
 @charset "UTF-8";
-/****************
-      Info
-*****************/
-.blog-box1, .blog-box2 {
-  float: left; }
-
-#info-box h3 img {
-  margin-right: 20px;
-  height: 7px;
-  padding-bottom: 3px; }
-
-#info-box {
-  padding-bottom: 30px; }
-
-#info-box h3 {
-  text-transform: uppercase;
-  font-size: 12px;
-  font-weight: bold; }
-
-#info-box p {
-  font-size: 12px;
-  line-height: 20px; }
-
-#info-box img + img {
-  margin-left: 10px; }
-
-.blog-box1 {
-  width: 680px;
-  margin-right: 50px; }
-
-.blog-box2 {
-  width: 230px; }
-
-/****************
-      Content
-*****************/
-#content {
-  border-bottom: 1px solid #c0c0c0;
-  margin-bottom: 20px;
-  padding-bottom: 20px; }
-
-.box h2 {
-  border-bottom: 8px solid black;
-  padding-bottom: 10px;
-  text-transform: uppercase;
-  font-size: 18px;
-  font-weight: bold; }
-
-.box p {
-  font-size: 12px;
-  line-height: 20px; }
-
-#content h2 img {
-  margin-right: 20px;
-  height: 10px;
-  padding-bottom: 5px; }
-
-#content a img {
-  margin-right: 20px;
-  height: 7px;
-  padding-bottom: 3px; }
-
-.box {
-  width: 285px;
-  float: left;
-  margin-left: 52px; }
-
-.box ul {
-  list-style-image: url("../img/Diseño/checkicon.jpg"); }
-
-.box:first-child {
-  margin-left: 0; }
-
-.hyperlink {
-  color: #fe9b00;
-  text-transform: uppercase; }
-
-.reference {
-  color: #090909;
-  font-style: italic; }
-
-/****************
-      Footer
-*****************/
-#footer {
-  background-color: #e2e2e2;
-  position: absolute;
-  width: 100%; }
-
-#footer-menu {
-  list-style: none;
-  padding: 10px;
-  width: 960px;
-  margin: 0 auto; }
-
-#footer-menu li {
-  display: inline; }
-
-#footer-menu a {
-  color: #090909;
-  font-size: 12px; }
-
-#footer p {
-  color: #090909;
-  font-size: 12px;
-  margin: 0px;
-  width: 960px;
-  margin: 0 auto; }
-
-#footer-menu li + li {
-  margin-right: 5px;
-  border-left: 1px solid #090909;
-  padding-left: 5px; }
-
-.logo-footer {
-  height: 63px;
-  position: relative; }
-
-.container-footer {
-  position: relative; }
-
-.img-container {
-  position: relative;
-  width: 960px;
-  margin: 0 auto;
-  left: 850px;
-  bottom: 30px; }
-
-/****************
-      Portfolio
-*****************/
-#portfolio {
-  border-bottom: 1px solid #c0c0c0;
-  margin-bottom: 20px;
-  padding-bottom: 30px; }
-
-#portfolio h2 img {
-  margin-right: 20px;
-  height: 10px;
-  padding-bottom: 3px; }
-
-#portfolio h2 {
-  text-transform: uppercase;
-  font-size: 18px;
-  font-weight: bold; }
-
-#portfolio img + img {
-  margin-left: 28px; }
-
-/****************
-      General
-*****************/
-#container {
-  width: 960px;
-  margin: 0 auto; }
-
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif; }
-
-a {
-  text-decoration: none; }
-
-/****************
-      Helpers
-*****************/
-.clearfix::after {
-  display: block;
-  content: "";
-  clear: both; }
-
-.bb-line {
-  border-bottom: 1px solid #c0c0c0;
-  margin-bottom: 20px;
-  padding-bottom: 20px; }
-
-/****************
-      Footer
-*****************/
-#footer {
-  background-color: #e2e2e2;
-  position: absolute;
-  width: 100%; }
-
-#footer-menu {
-  list-style: none;
-  padding: 10px;
-  width: 960px;
-  margin: 0 auto; }
-
-#footer-menu li {
-  display: inline; }
-
-#footer-menu a {
-  color: #090909;
-  font-size: 12px; }
-
-#footer p {
-  color: #090909;
-  font-size: 12px;
-  margin: 0px;
-  width: 960px;
-  margin: 0 auto; }
-
-#footer-menu li + li {
-  margin-right: 5px;
-  border-left: 1px solid #090909;
-  padding-left: 5px; }
-
-.logo-footer {
-  height: 63px;
-  position: relative; }
-
-.container-footer {
-  position: relative; }
-
-.img-container {
-  position: relative;
-  width: 960px;
-  margin: 0 auto;
-  left: 850px;
-  bottom: 30px; }
-
-/****************
-      Header
-*****************/
-#header {
-  position: relative;
-  height: 188px; }
-
-#headerFixedWrapper {
-  border-top: 17px solid #090909;
-  position: fixed;
-  margin: 0 auto;
-  width: 100%; }
-
-#headerFixed {
-  position: fixed;
-  background-color: white;
-  width: 960px;
-  top: 17px; }
-
-.logo {
-  float: left; }
-
-.correo {
-  color: #999898;
-  font-size: 13px;
-  position: absolute;
-  top: 18px;
-  right: 0; }
-
-.menu {
-  float: right;
-  list-style: none;
-  margin: 46px 0 0;
-  padding: 0; }
-
-.menu li {
-  display: inline; }
-
-.menu li + li {
-  margin-left: 65px; }
-
-.menu a {
-  color: #fe9b00;
-  font-size: 12px;
-  font-weight: bold;
-  text-transform: uppercase; }
-
-.menu a:hover,
-.link-active {
-  color: black !important; }
-
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -571,5 +297,248 @@ template {
  */
 [hidden] {
   display: none; }
+
+/****************
+      Helpers
+*****************/
+.clearfix::after {
+  display: block;
+  content: "";
+  clear: both; }
+
+.bb-line {
+  border-bottom: 1px solid #c0c0c0;
+  margin-bottom: 20px;
+  padding-bottom: 20px; }
+
+/****************
+      Header
+*****************/
+#header {
+  position: relative;
+  height: 188px; }
+
+#headerFixedWrapper {
+  border-top: 17px solid #090909;
+  position: fixed;
+  margin: 0 auto;
+  width: 100%; }
+
+#headerFixed {
+  position: fixed;
+  background-color: white;
+  width: 960px;
+  top: 17px; }
+
+.logo {
+  float: left; }
+
+.correo {
+  color: #999898;
+  font-size: 13px;
+  position: absolute;
+  top: 18px;
+  right: 0; }
+
+.menu {
+  float: right;
+  list-style: none;
+  margin: 46px 0 0;
+  padding: 0; }
+
+.menu li {
+  display: inline; }
+
+.menu li + li {
+  margin-left: 65px; }
+
+.menu a {
+  color: #fe9b00;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.menu a:hover,
+.link-active {
+  color: black !important; }
+
+/****************
+      Info
+*****************/
+.blog-box1, .blog-box2 {
+  float: left; }
+
+#info-box h3 img {
+  margin-right: 20px;
+  height: 7px;
+  padding-bottom: 3px; }
+
+#info-box {
+  padding-bottom: 10%; }
+
+#info-box h3 {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold; }
+
+#info-box p {
+  font-size: 12px;
+  line-height: 20px; }
+
+#info-box img + img {
+  margin-left: 13%; }
+
+.blog-box1 {
+  width: 70%;
+  margin-right: 5%; }
+
+.blog-box2 {
+  width: 25%; }
+
+/****************
+      Content
+*****************/
+#content {
+  border-bottom: 1px solid #c0c0c0;
+  margin-bottom: 20px;
+  padding-bottom: 20px; }
+
+.box h2 {
+  border-bottom: 8px solid black;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold; }
+
+.box p {
+  font-size: 12px;
+  line-height: 20px; }
+
+#content h2 img {
+  margin-right: 20px;
+  height: 10px;
+  padding-bottom: 5px; }
+
+#content a img {
+  margin-right: 20px;
+  height: 7px;
+  padding-bottom: 3px; }
+
+.box {
+  width: 30%;
+  float: left;
+  margin-left: 5%; }
+
+.box ul {
+  list-style-image: url("../img/Diseño/checkicon.jpg"); }
+
+.box:first-child {
+  margin-left: 0; }
+
+.hyperlink {
+  color: #fe9b00;
+  text-transform: uppercase; }
+
+.reference {
+  color: #090909;
+  font-style: italic; }
+
+/****************
+      Portfolio
+*****************/
+#portfolio {
+  border-bottom: 1px solid #c0c0c0;
+  margin-bottom: 20px;
+  padding-bottom: 30px; }
+
+#portfolio h2 img {
+  margin-right: 20px;
+  height: 10px;
+  padding-bottom: 3px; }
+
+#portfolio h2 {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold; }
+
+#portfolio img + img {
+  margin-left: 28px; }
+
+/****************
+      General
+*****************/
+#container {
+  width: 960px;
+  margin: 0 auto; }
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif; }
+
+a {
+  text-decoration: none; }
+
+/****************
+      Footer
+*****************/
+#footer {
+  background-color: #e2e2e2;
+  position: absolute;
+  width: 100%; }
+
+#footer-menu {
+  list-style: none;
+  padding: 10px 10px 10px 0;
+  width: 960px;
+  margin: 0 auto; }
+
+#footer-menu li {
+  display: inline; }
+
+#footer-menu a {
+  color: #090909;
+  font-size: 12px; }
+
+#footer p {
+  color: #090909;
+  font-size: 12px;
+  margin: 0px;
+  width: 960px;
+  margin: 0 auto; }
+
+#footer-menu li + li {
+  margin-right: 5px;
+  border-left: 1px solid #090909;
+  padding-left: 5px; }
+
+.logo-footer {
+  height: 63px;
+  position: relative; }
+
+.container-footer {
+  position: relative;
+  width: 960px;
+  margin: 0 auto; }
+
+.img-container {
+  position: relative;
+  width: 11%;
+  margin: 0;
+  left: 88%;
+  bottom: 30px; }
+
+@media only screen and (max-width: 320px) {
+  .btnHamburger {
+    display: inline-block;
+    margin: 46px auto 0;
+    padding: 0;
+    position: absolute;
+    left: 97%;
+    top: 52%;
+    height: 20px;
+    width: 20px;
+    background-color: red; }
+    .btnHamburger:hover .menu {
+      display: block; } }
 
 /*# sourceMappingURL=style.css.map */

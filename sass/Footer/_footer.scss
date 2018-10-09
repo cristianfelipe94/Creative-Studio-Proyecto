@@ -9,7 +9,7 @@
   
   #footer-menu{
     list-style: none;
-    padding: 10px;
+    padding: 10px 10px 10px 0;
     width: 960px;
     margin: 0 auto;
   }
@@ -44,13 +44,15 @@
   
   .container-footer {
     position: relative;
+    width: 960px;
+    margin: 0 auto;
   }
   
   .img-container {
     position: relative;
-    width: 960px;
-    margin: 0 auto;
-    left: 850px;
+    width: 11%;
+    margin: 0;
+    left: 88%;
     bottom: 30px;
   }
   
